@@ -14,9 +14,9 @@ A demo project using Sprint Boot as a backend for Movies API
 5. Run the JAR file in `/target` folder
 6. Base API url: `http://localhost:8080`
 
-##R esources
+## Resources
 
-###M ovies Endpoints
+### Movies Endpoints
 - `/movies`: GET all movies
 - `/movies/{id}`: GET a single movie by Id
 - `/movies`: POST a new movie with JSON payload containing a title, description, image(href)
