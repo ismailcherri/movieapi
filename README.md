@@ -1,12 +1,12 @@
 # Movie API
 A demo project using Sprint Boot as a backend for Movies API
 
-##Requirements
+## Requirements
 - Java 1.8
 - Maven 3+
 - MySQL Server 5.7+
 
-##Installation
+## Installation
 1. Create an empty MySQL database
 2. Import the demo.sql file into it
 3. Edit `PROJECT_ROOT/src/main/resources/application.properties` to fill your database connection info
@@ -14,9 +14,9 @@ A demo project using Sprint Boot as a backend for Movies API
 5. Run the JAR file in `/target` folder
 6. Base API url: `http://localhost:8080`
 
-##Resources
+##R esources
 
-###Movies Endpoints
+###M ovies Endpoints
 - `/movies`: GET all movies
 - `/movies/{id}`: GET a single movie by Id
 - `/movies`: POST a new movie with JSON payload containing a title, description, image(href)
@@ -24,7 +24,7 @@ A demo project using Sprint Boot as a backend for Movies API
 ` `/movies/{movieId}/categories/{categoryId}`: DELETE to remove a category from the movie
 ` `/movies/{id}`: DELETE a movie
 
-##Categories Endpoints
+## Categories Endpoints
 - `/categories`: GET all categories
 - `/categories/{id}`: GET a single category by Id
 - `/categories`: POST a new category with JSON payload containing a name
